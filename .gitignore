@@ -361,3 +361,22 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/Assets/Plugins/Demigiant/DOTween
+/Assets/Prefabs
+/Assets/Resources
+/Assets/Scenes
+/Assets/Settings
+/Assets/StandaloneFileBrowser
+/Assets/TextMesh Pro
+/.vsconfig
+/app.config
+/Assembly-CSharp-firstpass.csproj
+/Assembly-CSharp.csproj
+/Library
+/NovelMaker_Ver3.sln
+/packages.config
+/Temp
+/UserSettings
+/Assets/UniversalRenderPipelineGlobalSettings.asset
+/ProjectSettings
+/Assets/Image
