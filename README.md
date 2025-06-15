@@ -16,9 +16,9 @@ Renpy로 분기점이 있는 비선형적 스토리게임을 만드는 것이 �
 4. UI 구성
    입력과 응답을 보기좋게 띄울 수 있는 prefab를 만들어 정해진 양식 안에 입력과 응답이 출력될 수 있게 하였다. 전체적인 UI 콘셉은 다이어리 꾸미기 느낌으로 구성하여 소설을 써 내려가는 아기자기한 느낌을 주고자 했다.
 5. 캐릭터 표정 변화 구현
-   게임의 주인공이 되어 플레이하는 콘셉트인 만큼 인터렉티브성을 부각시키기 위해 사용자의 입력을 받아 감성분류를 적용하고, 도출된 값에 따라 캐릭터 일러스트를 변경하여 화면 좌측에 위치한 주인공 캐릭터의 표정을 변화시킬 수 있게 하였다. (모델: KcBERT / https://huggingface.co/beomi/kcbert-base)
+   게임의 주인공이 되어 플레이하는 콘셉트인 만큼 인터렉티브성을 부각시키기 위해 사용자의 입력을 받아 감성분류를 적용하고, 도출된 값에 따라 캐릭터 일러스트를 변경하여 화면 좌측에 위치한 주인공 캐릭터의 표정을 변화시킬 수 있게 하였다.<br> (모델: KcBERT / https://huggingface.co/beomi/kcbert-base)
 6. RAG 적용
-   캐릭터와 장소, 배경등을 담은 데이터베이스를 작성하고 이를 응답 과정에서 참조하게 하여 세계관에 부합하는 자연스러운 응답을 유도했다. (모델: Multilingual-MiniLM  / https://huggingface.co/microsoft/Multilingual-MiniLM-L12-H384)
+   캐릭터와 장소, 배경등을 담은 데이터베이스를 작성하고 이를 응답 과정에서 참조하게 하여 세계관에 부합하는 자연스러운 응답을 유도했다.<br> (모델: Multilingual-MiniLM  / https://huggingface.co/microsoft/Multilingual-MiniLM-L12-H384)
 
 **구현한 기술적 내용 정리**<br>
 - 로컬 LLM api 서버 구성 (flask)
